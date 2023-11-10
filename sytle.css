@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.counter{
+    border: .1rem solid #000;
+    height: 400px ;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .2rem;
+}
+
+.counter h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.counter h2{
+    font-size: 8rem;
+    padding: 1rem 0;
+}
